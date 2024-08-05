@@ -3,6 +3,7 @@ import { useState, Fragment } from "react";
 import Navbar from "./Navbar";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import LinkCard from "./Linkcard";
+import ShortenURLModal from "./ShortenURLModal";
 
 interface LinkCardProps {
   id: string | number;
@@ -41,9 +42,14 @@ const dummyData: LinkCardProps[] = [
 ];
 
 const Account = () => {
+  const [openModal, setOpenModal] = useState(false);
   const [links, setLinks] = useState(dummyData);
+
   return (
     <>
+      {openModal && (
+        <ShortenURLModal handleClose={() => setOpenModal(false)} open={false} />
+      )}
       <Navbar />
       <Box mt={5}>
         <Grid container justifyContent="center">
@@ -52,7 +58,12 @@ const Account = () => {
               <Box mr={3}>
                 <Typography variant="h4">Links</Typography>
               </Box>
-              <Button disableElevation variant="contained" color="primary">
+              <Button
+                onClick={() => setOpenModal(true)}
+                disableElevation
+                variant="contained"
+                color="primary"
+              >
                 Create New
               </Button>
             </Box>
@@ -60,11 +71,11 @@ const Account = () => {
             {links.map((link, idx) => (
               <Fragment key={link.id}>
                 <LinkCard {...link} />
-                { idx !== links.length - 1 && 
+                {idx !== links.length - 1 && (
                   <Box my={4}>
                     <Divider />
                   </Box>
-                }
+                )}
               </Fragment>
             ))}
           </Grid>
