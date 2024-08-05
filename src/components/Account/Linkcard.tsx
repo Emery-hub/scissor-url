@@ -31,13 +31,22 @@ const LinkCard = ({
           <Typography>Long URL: {longURL}</Typography>
         </Box>
         <Box display="flex" alignItems="center">
-          <Box mr={3}>
-            <Typography color="primary">
-              {window.location.host}/{shortCode}
-            </Typography>
+          <Typography color="primary">
+            {window.location.host}/{shortCode}
+          </Typography>
+
+          <Box mx={2}>
+            <Button size="small" variant="outlined">
+              Copy
+            </Button>
           </Box>
-          <Button size="small" variant="outlined">
-            Copy
+          <Button
+            color="secondary"
+            size="small"
+            variant="contained"
+            disableElevation
+          >
+            Delete
           </Button>
         </Box>
       </Box>
