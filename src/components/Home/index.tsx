@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Typography, TextField, Button } from "@mui/material";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { app } from "../../firebase";
 
 const Home = () => {
@@ -19,6 +19,12 @@ const Home = () => {
   const handleSignup = () => {
     const auth = getAuth(app);
     createUserWithEmailAndPassword(auth, form.email, form.password);
+  };
+
+  const handleSignin = () => {
+    const auth = getAuth(app);
+    signInWithEmailAndPassword(auth, form.email, form.password);
+  };
     // .then((userCredential) => {
     //   // Signed in
     //   const user = userCredential.user;
@@ -29,7 +35,7 @@ const Home = () => {
     //   const errorMessage = error.message;
     //   console.error("Error signing up:", errorCode, errorMessage);
     // });
-  };
+  
 
 
   return (
@@ -52,6 +58,9 @@ const Home = () => {
       />
       <Button onClick={handleSignup} variant="contained" color="primary">
         Sign Up
+      </Button>
+      <Button onClick={handleSignin} variant="contained" color="primary">
+        Sign In
       </Button>
 
       {/* <Button onClick={() => console.log(form)} variant="contained" color="primary">
