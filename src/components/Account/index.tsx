@@ -11,6 +11,7 @@ import {
   collection,
   addDoc,
   doc,
+  deleteDoc,
   getDocs,
   DocumentData,
   Timestamp,
@@ -125,6 +126,18 @@ const Account = () => {
     fetchLinks();
   }, []);
 
+  const handleDeleteLink = async (linkDocID: string) => {
+    const linkDocRef = doc(
+      firestore,
+      "users",
+      userUid ?? "",
+      "links",
+      linkDocID
+    );
+    await deleteDoc(linkDocRef);
+    setLinks((oldLinks) => oldLinks.filter((link) => link.id !== linkDocID));
+  };
+
   return (
     <>
       {openModal && (
@@ -153,11 +166,15 @@ const Account = () => {
 
             {links
               .sort(
-                (prevLink, nextLink) => nextLink.createdAt.toMillis() - prevLink.createdAt.toMillis()
+                (prevLink, nextLink) =>
+                  nextLink.createdAt.toMillis() - prevLink.createdAt.toMillis()
               )
               .map((link, idx) => (
                 <Fragment key={link.id}>
-                  <LinkCard {...link} />
+                  <LinkCard
+                    {...link}
+                    deleteLink={() => handleDeleteLink(link.id.toString())}
+                  />
                   {idx !== links.length - 1 && (
                     <Box my={4}>
                       <Divider />

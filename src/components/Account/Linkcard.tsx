@@ -11,6 +11,7 @@ interface LinkCardProps {
   longURL: string;
   shortCode: string;
   totalClicks: number;
+  deleteLink?: () => void;
 }
 
 const LinkCard = ({
@@ -20,6 +21,7 @@ const LinkCard = ({
   longURL,
   shortCode,
   totalClicks,
+  deleteLink,
 }: LinkCardProps) => {
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center">
@@ -45,6 +47,7 @@ const LinkCard = ({
             </Button>
           </Box>
           <Button
+          onClick={deleteLink}
             color="secondary"
             size="small"
             variant="contained"
