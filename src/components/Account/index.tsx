@@ -4,6 +4,17 @@ import Navbar from "./Navbar";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import LinkCard from "./Linkcard";
 import ShortenURLModal from "./ShortenURLModal";
+import { app, firestore, auth } from "../../firebase";
+import {
+  getFirestore,
+  serverTimestamp,
+  collection,
+  addDoc,
+  doc,
+} from "firebase/firestore";
+import { nanoid } from "nanoid";
+
+console.log(auth.currentUser?.uid);
 
 interface LinkCardProps {
   id: string | number;
@@ -44,11 +55,41 @@ const dummyData: LinkCardProps[] = [
 const Account = () => {
   const [openModal, setOpenModal] = useState(false);
   const [links, setLinks] = useState(dummyData);
+  const firestore = getFirestore();
+
+  const handleCreateShortenLink = async (name: string, longURL: string) => {
+    const link = {
+      name,
+      longURL,
+      createdAt: serverTimestamp(),
+      shortCode: nanoid(6),
+      totalClicks: 0,
+    };
+
+    const userCollection = collection(
+      firestore,
+      "users",
+      auth.currentUser?.uid ?? "",
+      "links"
+    );
+    const resp = await addDoc(userCollection, link);
+
+    // const resp = await firestore
+    //   .collection("users")
+    //   .doc(auth.currentUser?.uid)
+    //   .collection("links")
+    //   .add(link);
+
+    setOpenModal(false);
+  };
 
   return (
     <>
       {openModal && (
-        <ShortenURLModal handleClose={() => setOpenModal(false)} open={false} />
+        <ShortenURLModal
+          createShortenLink={handleCreateShortenLink}
+          handleClose={() => setOpenModal(false)}
+        />
       )}
       <Navbar />
       <Box mt={5}>

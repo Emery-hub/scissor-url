@@ -11,22 +11,46 @@ import {
 } from "@mui/material";
 import { Close as CloseIcon } from "@mui/icons-material";
 
-type ShortenURLModalProps = {
-  open: boolean;
+// type ShortenURLModalProps = {
+//   open: boolean;
+//   handleClose: () => void;
+// };
+interface ShortenURLModalProps {
   handleClose: () => void;
-};
+  createShortenLink: (name: string, longURL: string) => void;
+}
 
-const ShortenURLModal = ({ handleClose }: ShortenURLModalProps) => {
+const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
+  handleClose,
+  createShortenLink,
+}) => {
   const [form, setForm] = useState({
     name: "",
     longURL: "",
   });
 
-  const handleChange = (event: { target: { name: any; value: any } }) =>
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
     setForm((oldForm) => ({
       ...oldForm,
       [event.target.name]: event.target.value,
     }));
+
+  const handleSubmit = () => {
+    createShortenLink(form.name, form.longURL);
+    handleClose();
+  };
+
+  // const ShortenURLModal = ({ handleClose, createShortenLink }: ShortenURLModalProps) => {
+  //   const [form, setForm] = useState({
+  //     name: "",
+  //     longURL: "",
+  //   });
+
+//   const handleChange = (event: { target: { name: any; value: any } }) =>
+//     setForm((oldForm) => ({
+//       ...oldForm,
+//       [event.target.name]: event.target.value,
+//     }));
 
   return (
     <Dialog fullWidth open={true} onClose={handleClose}>
@@ -64,7 +88,7 @@ const ShortenURLModal = ({ handleClose }: ShortenURLModalProps) => {
       <DialogActions>
         <Box mr={2} my={1}>
           <Button
-            onClick={() => console.log(form)}
+            onClick={handleSubmit}
             variant="contained"
             color="primary"
           >
