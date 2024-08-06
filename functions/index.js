@@ -1,4 +1,7 @@
 const functions = require("firebase-functions");
+const admin = require("firebase-admin");
+
+admin.initializeApp();
 
 // // Create and deploy your first functions
 // // https://firebase.google.com/docs/functions/get-started
@@ -7,3 +10,16 @@ const functions = require("firebase-functions");
 //   functions.logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
+
+exports.linkCreated = functions.firestore
+  .document("users/{userUid}/links/{linkID}")
+  .onCreate((snapshot, context) => {
+    const { userUid, linkID } = context.params;
+    const { longURL, shortCode } = snapshot.data();
+
+    return admin.firestore().doc(`links/${shortCode}`).set({
+      userUid,
+      linkID,
+      longURL,
+    });
+  });
