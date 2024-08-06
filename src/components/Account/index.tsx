@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, Fragment } from "react";
+import { useState, Fragment, useEffect } from "react";
 import Navbar from "./Navbar";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import LinkCard from "./Linkcard";
@@ -11,6 +11,9 @@ import {
   collection,
   addDoc,
   doc,
+  getDocs,
+  DocumentData,
+  Timestamp,
 } from "firebase/firestore";
 import { nanoid } from "nanoid";
 
@@ -18,7 +21,7 @@ console.log(auth.currentUser?.uid);
 
 interface LinkCardProps {
   id: string | number;
-  createdAt: string; // Update the type to string
+  createdAt: Timestamp; // Update the type to Timestamp
   name: string;
   longURL: string;
   shortCode: string;
@@ -28,7 +31,7 @@ interface LinkCardProps {
 const dummyData: LinkCardProps[] = [
   {
     id: "31r08ms0fam",
-    createdAt: new Date().toDateString(),
+    createdAt: Timestamp.fromDate(new Date()),
     name: "Dummy name",
     longURL: "http://www.google.com",
     shortCode: "masdom",
@@ -36,7 +39,7 @@ const dummyData: LinkCardProps[] = [
   },
   {
     id: "31r089987ms0fam",
-    createdAt: new Date().toDateString(),
+    createdAt: Timestamp.fromDate(new Date()),
     name: "Dummy name 2",
     longURL: "http://www.google.com",
     shortCode: "masdom real",
@@ -44,7 +47,7 @@ const dummyData: LinkCardProps[] = [
   },
   {
     id: "31r089435987ms0fam",
-    createdAt: new Date().toDateString(),
+    createdAt: Timestamp.fromDate(new Date()),
     name: "Dummy name 3",
     longURL: "http://www.google.com",
     shortCode: "masdom-real",
@@ -54,7 +57,8 @@ const dummyData: LinkCardProps[] = [
 
 const Account = () => {
   const [openModal, setOpenModal] = useState(false);
-  const [links, setLinks] = useState(dummyData);
+  const [links, setLinks] = useState<LinkCardProps[]>([]);
+  const userUid = auth.currentUser?.uid;
   const firestore = getFirestore();
 
   const handleCreateShortenLink = async (name: string, longURL: string) => {
@@ -69,7 +73,7 @@ const Account = () => {
     const userCollection = collection(
       firestore,
       "users",
-      auth.currentUser?.uid ?? "",
+      userUid ?? "",
       "links"
     );
     const resp = await addDoc(userCollection, link);
@@ -82,6 +86,34 @@ const Account = () => {
 
     setOpenModal(false);
   };
+
+  useEffect(() => {
+    const fetchLinks = async () => {
+      const querySnapshot = await getDocs(
+        collection(firestore, "users", userUid ?? "", "links")
+      );
+      const docs = querySnapshot.docs;
+
+      const tempLinks: LinkCardProps[] = [];
+
+      docs.forEach((doc) => {
+        const { createdAt, name, longURL, shortCode, totalClicks } = doc.data();
+        tempLinks.push({
+          ...doc.data(),
+          id: doc.id,
+          createdAt,
+          name,
+          longURL,
+          shortCode,
+          totalClicks,
+        });
+      });
+
+      setLinks(tempLinks);
+    };
+
+    fetchLinks();
+  }, []);
 
   return (
     <>

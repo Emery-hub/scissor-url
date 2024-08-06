@@ -2,10 +2,11 @@ import React from "react";
 import { Typography, Button, Box } from "@mui/material";
 import { BarChart as ChartIcon } from "@mui/icons-material";
 import format, { formatDate } from "date-fns/format";
+import { serverTimestamp, Timestamp } from "firebase/firestore";
 
 interface LinkCardProps {
   id: string | number;
-  createdAt: string;
+  createdAt: Timestamp;
   name: string;
   longURL: string;
   shortCode: string;
@@ -24,7 +25,10 @@ const LinkCard = ({
     <Box display="flex" justifyContent="space-between" alignItems="center">
       <Box>
         <Typography color="textSecondary" variant="overline">
-          Created at {formatDate(createdAt, "d MMM, HH:mm")}
+          Created at=={" "}
+          {createdAt instanceof Timestamp
+            ? formatDate(createdAt.toDate(), "d MMM, HH:mm")
+            : "Invalid Date"}
         </Typography>
         <Box my={2}>
           <Typography variant="h5">Name: {name}</Typography>
