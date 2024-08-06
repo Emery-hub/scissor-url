@@ -14,6 +14,7 @@ import {
   getDocs,
   DocumentData,
   Timestamp,
+  getDoc,
 } from "firebase/firestore";
 import { nanoid } from "nanoid";
 
@@ -78,12 +79,21 @@ const Account = () => {
     );
     const resp = await addDoc(userCollection, link);
 
+    const docRef = doc(userCollection, resp.id);
+    const docSnap = await getDoc(docRef);
+    const createdAt = docSnap.data()?.createdAt;
+
     // const resp = await firestore
     //   .collection("users")
     //   .doc(auth.currentUser?.uid)
     //   .collection("links")
     //   .add(link);
 
+    setLinks((links) => [
+      ...links,
+      { ...link, createdAt: createdAt as Timestamp, id: resp.id },
+    ]);
+    // setLinks((prevLinks) => [...prevLinks, {...link, id: resp.id }]);
     setOpenModal(false);
   };
 
@@ -141,16 +151,20 @@ const Account = () => {
               </Button>
             </Box>
 
-            {links.map((link, idx) => (
-              <Fragment key={link.id}>
-                <LinkCard {...link} />
-                {idx !== links.length - 1 && (
-                  <Box my={4}>
-                    <Divider />
-                  </Box>
-                )}
-              </Fragment>
-            ))}
+            {links
+              .sort(
+                (prevLink, nextLink) => nextLink.createdAt.toMillis() - prevLink.createdAt.toMillis()
+              )
+              .map((link, idx) => (
+                <Fragment key={link.id}>
+                  <LinkCard {...link} />
+                  {idx !== links.length - 1 && (
+                    <Box my={4}>
+                      <Divider />
+                    </Box>
+                  )}
+                </Fragment>
+              ))}
           </Grid>
         </Grid>
       </Box>
