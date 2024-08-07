@@ -11,6 +11,7 @@ import Account from "./components/Account";
 import theme from "./theme";
 // import { auth } from "./firebase";
 import { getAuth, onAuthStateChanged, User } from "firebase/auth";
+import LinkRedirect from "./components/LinkRedirect";
 
 const App = () => {
   const [user, setUser] = useState<User | null>(null);
@@ -45,6 +46,9 @@ const App = () => {
             path="/account"
             element={user ? <Account /> : <Navigate to="/" />}
           />
+          <Route path="/:shortCode" element={<LinkRedirect />} />
+
+          {/* <Route path="*" element={<Navigate to="/" />} /> */}
         </Routes>
       </Router>
     </ThemeProvider>
