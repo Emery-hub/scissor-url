@@ -14,6 +14,7 @@ interface LinkCardProps {
   // deleteLink: () => string;
   // deleteLink: () => void;
   deleteLink: (linkDocID: string) => void;
+  copyLink: (linkURL: string) => void;
 }
 
 const LinkCard = ({
@@ -24,8 +25,10 @@ const LinkCard = ({
   shortCode,
   totalClicks,
   deleteLink,
+  copyLink,
 }: LinkCardProps) => {
   console.log("link card rendered");
+  const shortURL = `${window.location.host}/${shortCode}`;
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center">
       <Box>
@@ -40,12 +43,14 @@ const LinkCard = ({
           <Typography>Long URL: {longURL}</Typography>
         </Box>
         <Box display="flex" alignItems="center">
-          <Typography color="primary">
-            {window.location.host}/{shortCode}
-          </Typography>
+          <Typography color="primary">{shortURL}</Typography>
 
           <Box mx={2}>
-            <Button size="small" variant="outlined">
+            <Button
+              onClick={() => copyLink(shortURL)}
+              size="small"
+              variant="outlined"
+            >
               Copy
             </Button>
           </Box>
