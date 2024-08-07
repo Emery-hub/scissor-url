@@ -23,3 +23,10 @@ exports.linkCreated = functions.firestore
       longURL,
     });
   });
+
+exports.linkDeleted = functions.firestore
+  .document("users/{userUid}/links/{linkID}")
+  .onDelete((snapshot, context) => {
+    const { shortCode } = snapshot.data();
+    return admin.firestore().doc(`links/${shortCode}`).delete();
+  });

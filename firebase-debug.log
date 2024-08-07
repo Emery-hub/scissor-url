@@ -11251,3 +11251,1740 @@ INFO: Detected non-HTTP/2 connection.
 [debug] [2024-08-07T15:52:55.478Z] Aug 07, 2024 4:52:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
  {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:52:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:53:55.538Z] Aug 07, 2024 4:53:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:53:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:54:55.598Z] Aug 07, 2024 4:54:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:54:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:55:55.661Z] Aug 07, 2024 4:55:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:55:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:56:55.718Z] Aug 07, 2024 4:56:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:56:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:57:55.757Z] Aug 07, 2024 4:57:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:57:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:58:55.793Z] Aug 07, 2024 4:58:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:58:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T15:59:55.840Z] Aug 07, 2024 4:59:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 4:59:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:00:55.878Z] Aug 07, 2024 5:00:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:00:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:01:21.331Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:01:22.408Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:01:34.284Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:01:34.285Z] Building nodejs source
+[debug] [2024-08-07T16:01:34.285Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:01:34.304Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:01:34.455Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:01:35.462Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:01:40.059Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:01:40.059Z] Building nodejs source
+[debug] [2024-08-07T16:01:40.059Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:01:40.062Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:01:40.135Z] Serving at port 9005
+
+[debug] [2024-08-07T16:01:40.140Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:01:40.228Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:01:40.241Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated."}}
+[debug] [2024-08-07T16:01:40.997Z] Serving at port 9006
+
+[debug] [2024-08-07T16:01:41.105Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:01:41.162Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:01:44.878Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:01:44.879Z] Building nodejs source
+[debug] [2024-08-07T16:01:44.879Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:01:44.885Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:01:45.111Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated."}}
+[debug] [2024-08-07T16:01:46.121Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:01:46.130Z] Serving at port 9005
+
+[debug] [2024-08-07T16:01:46.160Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected end of input
+[debug] [2024-08-07T16:01:46.167Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected end of input
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected end of input\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected end of input\n                                         ^"}
+[debug] [2024-08-07T16:01:46.204Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input"}}
+[debug] [2024-08-07T16:01:47.139Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:01:50.918Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:01:50.919Z] Building nodejs source
+[debug] [2024-08-07T16:01:50.919Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:01:50.925Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:01:51.662Z] Serving at port 9005
+
+[debug] [2024-08-07T16:01:51.678Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected end of input
+[debug] [2024-08-07T16:01:51.680Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected end of input
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected end of input\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected end of input\n                                         ^"}
+[debug] [2024-08-07T16:01:51.687Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input"}}
+[debug] [2024-08-07T16:01:55.932Z] Aug 07, 2024 5:01:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:01:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:02:05.099Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:02:05.964Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:02:06.970Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:02:10.840Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:02:10.840Z] Building nodejs source
+[debug] [2024-08-07T16:02:10.840Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:02:10.852Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:02:12.036Z] Serving at port 9005
+
+[debug] [2024-08-07T16:02:12.325Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:02:12.359Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated."}}
+[debug] [2024-08-07T16:02:41.546Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:02:42.570Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:02:46.790Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:02:46.790Z] Building nodejs source
+[debug] [2024-08-07T16:02:46.790Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:02:46.796Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:02:47.660Z] Serving at port 9005
+
+[debug] [2024-08-07T16:02:47.755Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:02:47.796Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated."}}
+[debug] [2024-08-07T16:02:55.983Z] Aug 07, 2024 5:02:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:02:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:03:11.960Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:03:12.154Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:03:13.174Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:03:17.168Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:03:17.168Z] Building nodejs source
+[debug] [2024-08-07T16:03:17.169Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:03:17.185Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:03:17.963Z] Serving at port 9005
+
+[debug] [2024-08-07T16:03:18.068Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:03:18.095Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated."}}
+[debug] [2024-08-07T16:03:56.029Z] Aug 07, 2024 5:03:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:03:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:04:22.158Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:04:23.173Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:04:27.295Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:04:27.295Z] Building nodejs source
+[debug] [2024-08-07T16:04:27.296Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:04:27.304Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:04:28.167Z] Serving at port 9005
+
+[debug] [2024-08-07T16:04:28.198Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected end of input
+[debug] [2024-08-07T16:04:28.205Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected end of input
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected end of input\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected end of input\n                                         ^"}
+[debug] [2024-08-07T16:04:28.217Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected end of input"}}
+[debug] [2024-08-07T16:04:28.313Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:04:29.325Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:04:33.658Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:04:33.658Z] Building nodejs source
+[debug] [2024-08-07T16:04:33.658Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:04:33.664Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:04:33.702Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:04:34.580Z] Serving at port 9005
+
+[debug] [2024-08-07T16:04:34.617Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token ')'
+[debug] [2024-08-07T16:04:34.624Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token ')'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token ')'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token ')'\n                                         ^"}
+[debug] [2024-08-07T16:04:34.638Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token ')' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token ')'"}}
+[debug] [2024-08-07T16:04:34.711Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:04:39.073Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:04:39.073Z] Building nodejs source
+[debug] [2024-08-07T16:04:39.074Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:04:39.080Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:04:39.899Z] Serving at port 9005
+
+[debug] [2024-08-07T16:04:39.928Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token ')'
+[debug] [2024-08-07T16:04:39.933Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token ')'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token ')'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token ')'\n                                         ^"}
+[debug] [2024-08-07T16:04:39.946Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token ')' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token ')'"}}
+[debug] [2024-08-07T16:04:56.088Z] Aug 07, 2024 5:04:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:04:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:05:56.153Z] Aug 07, 2024 5:05:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:05:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:06:35.789Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:06:36.833Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:06:41.026Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:06:41.027Z] Building nodejs source
+[debug] [2024-08-07T16:06:41.027Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:06:41.032Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:06:41.844Z] Serving at port 9005
+
+[debug] [2024-08-07T16:06:41.923Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: s is not defined
+[debug] [2024-08-07T16:06:41.930Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: s is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: s is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: s is not defined\n                                         ^"}
+[debug] [2024-08-07T16:06:41.967Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: s is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: s is not defined"}}
+[debug] [2024-08-07T16:06:50.238Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:06:51.255Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:06:56.618Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:06:56.619Z] Building nodejs source
+[debug] [2024-08-07T16:06:56.619Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:06:56.625Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:06:56.668Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:06:56.669Z] Aug 07, 2024 5:06:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:06:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:06:57.399Z] Serving at port 9005
+
+[debug] [2024-08-07T16:06:57.502Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: snapshot is not defined
+[debug] [2024-08-07T16:06:57.510Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: snapshot is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: snapshot is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: snapshot is not defined\n                                         ^"}
+[debug] [2024-08-07T16:06:57.521Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: snapshot is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: snapshot is not defined"}}
+[debug] [2024-08-07T16:06:57.675Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:01.481Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:01.481Z] Building nodejs source
+[debug] [2024-08-07T16:07:01.482Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:01.487Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:02.228Z] Serving at port 9005
+
+[debug] [2024-08-07T16:07:02.299Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: snapshot is not defined
+[debug] [2024-08-07T16:07:02.305Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: snapshot is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: snapshot is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: snapshot is not defined\n                                         ^"}
+[debug] [2024-08-07T16:07:02.317Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: snapshot is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: snapshot is not defined"}}
+[debug] [2024-08-07T16:07:29.069Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:30.078Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:33.992Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:33.992Z] Building nodejs source
+[debug] [2024-08-07T16:07:33.992Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:34.003Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:34.991Z] Serving at port 9005
+
+[debug] [2024-08-07T16:07:35.028Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Invalid left-hand side in assignment
+[debug] [2024-08-07T16:07:35.036Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Invalid left-hand side in assi ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Invalid left-hand side in assignment\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Invalid left-hand side in assi ... \n                                         ^"}
+[debug] [2024-08-07T16:07:35.050Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Invalid left-hand side in assignment {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Invalid left-hand side in assignment"}}
+[debug] [2024-08-07T16:07:35.584Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:36.605Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:42.209Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:42.210Z] Building nodejs source
+[debug] [2024-08-07T16:07:42.210Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:42.216Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:42.428Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:42.527Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:43.544Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:48.052Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:48.053Z] Building nodejs source
+[debug] [2024-08-07T16:07:48.054Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:48.062Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:48.124Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:48.126Z] Serving at port 9005
+
+[debug] [2024-08-07T16:07:48.224Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:07:48.241Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:07:48.274Z] addFirestoreTrigger "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2024-08-07T16:07:48.275Z] >>> [apiv2][query] PUT http://127.0.0.1:8080/emulator/v1/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 [none]
+[debug] [2024-08-07T16:07:48.276Z] >>> [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2024-08-07T16:07:48.292Z] Aug 07, 2024 5:07:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:07:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:07:48.471Z] <<< [apiv2][status] PUT http://127.0.0.1:8080/emulator/v1/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 200
+[debug] [2024-08-07T16:07:48.471Z] <<< [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 {}
+[info] ✔  functions[us-central1-linkDeleted]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[debug] [2024-08-07T16:07:49.133Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:53.180Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:53.181Z] Building nodejs source
+[debug] [2024-08-07T16:07:53.181Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:53.190Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:53.253Z] Serving at port 9006
+
+[debug] [2024-08-07T16:07:53.257Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:07:53.353Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:07:53.374Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:07:54.027Z] Serving at port 9005
+
+[debug] [2024-08-07T16:07:54.085Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:07:54.095Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:07:54.266Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:07:59.330Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:07:59.330Z] Building nodejs source
+[debug] [2024-08-07T16:07:59.330Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:07:59.333Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:07:59.385Z] Aug 07, 2024 5:07:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:07:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:00.214Z] Serving at port 9005
+
+[debug] [2024-08-07T16:08:00.305Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:08:00.343Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:08:15.178Z] Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:15.190Z] Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:24.705Z] Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:24.774Z] Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:24.809Z] Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:34.797Z] Aug 07, 2024 5:08:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:40.967Z] Aug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:08:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:44.321Z] Aug 07, 2024 5:08:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:50.901Z] Aug 07, 2024 5:08:50 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:50 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:08:52.861Z] Aug 07, 2024 5:08:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:08:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:08:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:08:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:09:02.810Z] Aug 07, 2024 5:09:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:09:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:09:11.156Z] Aug 07, 2024 5:09:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:09:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:09:12.831Z] Aug 07, 2024 5:09:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:09:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:09:12.834Z] Aug 07, 2024 5:09:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:09:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:09:58.318Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:09:59.343Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:10:04.363Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:10:04.364Z] Building nodejs source
+[debug] [2024-08-07T16:10:04.364Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:10:04.727Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:10:04.946Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:10:05.954Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:10:09.748Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:10:09.749Z] Building nodejs source
+[debug] [2024-08-07T16:10:09.750Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:10:09.764Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:10:09.804Z] Serving at port 9005
+
+[debug] [2024-08-07T16:10:09.898Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:10:09.918Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:10:10.517Z] Serving at port 9006
+
+[debug] [2024-08-07T16:10:10.573Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:10:10.582Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:10:11.208Z] Aug 07, 2024 5:10:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:10:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:10:31.385Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:10:31.483Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:10:32.488Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:10:36.175Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:10:36.175Z] Building nodejs source
+[debug] [2024-08-07T16:10:36.175Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:10:36.187Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:10:37.008Z] Serving at port 9005
+
+[debug] [2024-08-07T16:10:37.085Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:10:37.101Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:11:23.778Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:11:24.799Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:11:28.792Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:11:28.792Z] Building nodejs source
+[debug] [2024-08-07T16:11:28.793Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:11:28.799Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:11:28.841Z] Aug 07, 2024 5:11:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:11:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:11:28.842Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:11:29.556Z] Serving at port 9005
+
+[debug] [2024-08-07T16:11:29.661Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:11:29.684Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:11:29.850Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:11:33.446Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:11:33.446Z] Building nodejs source
+[debug] [2024-08-07T16:11:33.446Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:11:33.451Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:11:34.147Z] Serving at port 9005
+
+[debug] [2024-08-07T16:11:34.310Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:11:34.320Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:12:18.239Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:12:19.248Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:12:23.242Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:12:23.243Z] Building nodejs source
+[debug] [2024-08-07T16:12:23.243Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:12:23.244Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:12:24.107Z] Serving at port 9005
+
+[debug] [2024-08-07T16:12:24.138Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token '}'
+[debug] [2024-08-07T16:12:24.145Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token '}'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token '}'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token '}'\n                                         ^"}
+[debug] [2024-08-07T16:12:24.157Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token '}' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token '}'"}}
+[debug] [2024-08-07T16:12:26.472Z] Aug 07, 2024 5:12:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:12:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:12:31.849Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:12:32.862Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:12:36.620Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:12:36.620Z] Building nodejs source
+[debug] [2024-08-07T16:12:36.620Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:12:36.626Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:12:36.709Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:12:37.411Z] Serving at port 9005
+
+[debug] [2024-08-07T16:12:37.502Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:12:37.522Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:12:37.718Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:12:41.425Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:12:41.425Z] Building nodejs source
+[debug] [2024-08-07T16:12:41.425Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:12:41.430Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:12:42.154Z] Serving at port 9005
+
+[debug] [2024-08-07T16:12:42.228Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:12:42.249Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:12:53.151Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:12:54.171Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:12:58.139Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:12:58.139Z] Building nodejs source
+[debug] [2024-08-07T16:12:58.139Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:12:58.145Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:12:58.937Z] Serving at port 9005
+
+[debug] [2024-08-07T16:12:59.102Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:12:59.150Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:13:16.885Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:13:17.900Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:13:21.819Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:13:21.819Z] Building nodejs source
+[debug] [2024-08-07T16:13:21.819Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:13:21.824Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:13:22.590Z] Serving at port 9005
+
+[debug] [2024-08-07T16:13:22.776Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:13:22.807Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:13:26.513Z] Aug 07, 2024 5:13:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:13:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:13:35.529Z] Aug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:13:35.532Z] Aug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:13:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:14:26.623Z] Aug 07, 2024 5:14:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:14:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:15:26.692Z] Aug 07, 2024 5:15:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:15:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:16:26.737Z] Aug 07, 2024 5:16:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:16:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:17:26.772Z] Aug 07, 2024 5:17:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:17:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:18:26.817Z] Aug 07, 2024 5:18:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:18:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:19:26.845Z] Aug 07, 2024 5:19:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:19:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:20:26.924Z] Aug 07, 2024 5:20:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:20:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:21:26.992Z] Aug 07, 2024 5:21:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:21:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:21:44.070Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:21:45.120Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:21:50.684Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:21:50.685Z] Building nodejs source
+[debug] [2024-08-07T16:21:50.685Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:21:50.692Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:21:51.503Z] Serving at port 9005
+
+[debug] [2024-08-07T16:21:51.610Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:21:51.653Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:22:42.392Z] Aug 07, 2024 5:22:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:22:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:06.106Z] Aug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:06.111Z] Aug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:23:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:21.825Z] Aug 07, 2024 5:23:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:22.131Z] Aug 07, 2024 5:23:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:22.203Z] Aug 07, 2024 5:23:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:27.166Z] Aug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:27.182Z] Aug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:23:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:33.914Z] Aug 07, 2024 5:23:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:23:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:23:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:36.858Z] Aug 07, 2024 5:23:36 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:36 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:42.448Z] Aug 07, 2024 5:23:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.525Z] Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.554Z] Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.561Z] Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.606Z] Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.628Z] Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:44.669Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2024-08-07T16:23:44.670Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2024-08-07T16:23:44.671Z] Accepted request POST /functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 --> us-central1-linkDeleted-0
+[debug] [2024-08-07T16:23:44.731Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-08-07T16:23:44.733Z] [functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/"}}
+[debug] [2024-08-07T16:23:44.734Z] [worker-pool] Cleaned up workers for us-central1-linkCreated: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-linkCreated: 1 --> 0"}}
+[debug] [2024-08-07T16:23:44.861Z] [worker-pool] addWorker(us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:23:44.862Z] [worker-pool] Adding worker with key us-central1-linkDeleted, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-linkDeleted, total=1"}}
+[debug] [2024-08-07T16:23:46.309Z] Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:46.327Z] Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:23:46 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:46.835Z] [runtime-status] [99910] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.843Z] [runtime-status] [99910] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.845Z] [runtime-status] [99910] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-08-07T16:23:46.848Z] [runtime-status] [99910] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.960Z] [runtime-status] [99910] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-08-07T16:23:46.960Z] [runtime-status] [99910] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:23:46.962Z] [runtime-status] [99910] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.964Z] [runtime-status] [99910] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.965Z] [runtime-status] [99910] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:23:46.965Z] [runtime-status] [99910] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:23:46.969Z] [runtime-status] [99910] initializeApp(DEFAULT) {"storageBucket":"scissor-8c3bf.appspot.com","projectId":"scissor-8c3bf"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] initializeApp(DEFAULT) {\"storageBucket\":\"scissor-8c3bf.appspot.com\",\"projectId\":\"scissor-8c3bf\"}"}}
+[debug] [2024-08-07T16:23:46.986Z] [runtime-status] [99910] Functions runtime initialized. {"cwd":"/Users/emerychikezie/Desktop/shortly/functions","node_version":"16.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Functions runtime initialized. {\"cwd\":\"/Users/emerychikezie/Desktop/shortly/functions\",\"node_version\":\"16.16.0\"}"}}
+[debug] [2024-08-07T16:23:46.988Z] [runtime-status] [99910] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_675297f290bd218a.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_675297f290bd218a.sock"}}
+[debug] [2024-08-07T16:23:47.098Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE"}}
+[debug] [2024-08-07T16:23:47.099Z] [worker-pool] submitRequest(triggerId=us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:23:47.099Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: BUSY"}}
+[info] i  functions: Beginning execution of "linkDeleted" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Beginning execution of \"linkDeleted\""}}
+[debug] [2024-08-07T16:23:47.130Z] [runtime-status] [99910] ProcessBackground: lifting resource.name from resource {"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6","service":"firestore.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6\",\"service\":\"firestore.googleapis.com\"}"}}
+[debug] [2024-08-07T16:23:47.131Z] [runtime-status] [99910] RunBackground {"data":{"oldValue":{"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6","fields":{"name":{"stringValue":"website"},"totalClicks":{"integerValue":"0"},"longURL":{"stringValue":"www.website.com"},"shortCode":{"stringValue":"EqPxNW"},"createdAt":{"timestampValue":"2024-08-06T00:38:24.378Z"}},"createTime":"2024-08-06T00:38:24.697535Z","updateTime":"2024-08-06T00:38:24.697535Z"},"updateMask":{}},"context":{"eventId":"87f3bdb2-2027-4e22-b7c3-e84bdd1f0181","timestamp":"2024-08-07T16:23:44.582Z","eventType":"providers/cloud.firestore/eventTypes/document.delete","resource":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] RunBackground {\"data\":{\"oldValue\":{\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6\",\"fields\":{\"name\":{\"stringValue\":\"website\"},\"totalClicks\":{\"integerValue\":\"0\"},\"longURL\":{\"stringValue\":\"www.website.com\"},\"shortCode\":{\"stringValue\":\"EqPxNW\"},\"createdAt\":{\"timestampValue\":\"2024-08-06T00:38:24.378Z\"}},\"createTime\":\"2024-08-06T00:38:24.697535Z\",\"updateTime\":\"2024-08-06T00:38:24.697535Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"87f3bdb2-2027-4e22-b7c3-e84bdd1f0181\",\"timestamp\":\"2024-08-07T16:23:44.582Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/3FPcApwEvsXwgIYPjvn6\"}}"}}
+[debug] [2024-08-07T16:23:47.955Z] Aug 07, 2024 5:23:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:48.017Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE"}}
+[debug] [2024-08-07T16:23:48.019Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "linkDeleted" in 875.755166ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Finished \"linkDeleted\" in 875.755166ms"}}
+[debug] [2024-08-07T16:23:52.398Z] Aug 07, 2024 5:23:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:52.402Z] Aug 07, 2024 5:23:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:56.501Z] Aug 07, 2024 5:23:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:58.982Z] Aug 07, 2024 5:23:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:59.025Z] Aug 07, 2024 5:23:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:23:59.036Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2024-08-07T16:23:59.038Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2024-08-07T16:23:59.045Z] Accepted request POST /functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 --> us-central1-linkDeleted-0
+[debug] [2024-08-07T16:23:59.065Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-08-07T16:23:59.066Z] [functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/"}}
+[debug] [2024-08-07T16:23:59.068Z] [worker-pool] submitRequest(triggerId=us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:23:59.068Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: BUSY"}}
+[debug] [2024-08-07T16:23:59.073Z] Aug 07, 2024 5:23:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:23:59 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[info] i  functions: Beginning execution of "linkDeleted" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Beginning execution of \"linkDeleted\""}}
+[debug] [2024-08-07T16:23:59.084Z] [runtime-status] [99910] ProcessBackground: lifting resource.name from resource {"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n","service":"firestore.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n\",\"service\":\"firestore.googleapis.com\"}"}}
+[debug] [2024-08-07T16:23:59.084Z] [runtime-status] [99910] RunBackground {"data":{"oldValue":{"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n","fields":{"name":{"stringValue":"google"},"totalClicks":{"integerValue":"0"},"longURL":{"stringValue":"https://google.com"},"shortCode":{"stringValue":"IWC2AY"},"createdAt":{"timestampValue":"2024-08-06T03:04:58.603Z"}},"createTime":"2024-08-06T03:04:58.704415Z","updateTime":"2024-08-06T03:04:58.704415Z"},"updateMask":{}},"context":{"eventId":"4c833744-7acd-4af5-886b-9637de6ade14","timestamp":"2024-08-07T16:23:59.005Z","eventType":"providers/cloud.firestore/eventTypes/document.delete","resource":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99910] RunBackground {\"data\":{\"oldValue\":{\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n\",\"fields\":{\"name\":{\"stringValue\":\"google\"},\"totalClicks\":{\"integerValue\":\"0\"},\"longURL\":{\"stringValue\":\"https://google.com\"},\"shortCode\":{\"stringValue\":\"IWC2AY\"},\"createdAt\":{\"timestampValue\":\"2024-08-06T03:04:58.603Z\"}},\"createTime\":\"2024-08-06T03:04:58.704415Z\",\"updateTime\":\"2024-08-06T03:04:58.704415Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"4c833744-7acd-4af5-886b-9637de6ade14\",\"timestamp\":\"2024-08-07T16:23:59.005Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/VM0BqbiYo7IgfUjDSa1n\"}}"}}
+[debug] [2024-08-07T16:23:59.120Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: IDLE"}}
+[debug] [2024-08-07T16:23:59.122Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "linkDeleted" in 31.82475ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Finished \"linkDeleted\" in 31.82475ms"}}
+[debug] [2024-08-07T16:24:01.298Z] Aug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:01.299Z] Aug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:24:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:06.541Z] Aug 07, 2024 5:24:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:10.387Z] Aug 07, 2024 5:24:10 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:10 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2024-08-07T16:24:11.670Z] Aug 07, 2024 5:24:11 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:11 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2024-08-07T16:24:11.676Z] Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:11.691Z] Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:11.757Z] Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:11.788Z] Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:16.968Z] Aug 07, 2024 5:24:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:21.764Z] Aug 07, 2024 5:24:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:22.242Z] Aug 07, 2024 5:24:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:22.369Z] Aug 07, 2024 5:24:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:22.383Z] Aug 07, 2024 5:24:22 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:22 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-08-07T16:24:26.932Z] Aug 07, 2024 5:24:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:33.268Z] Aug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:24:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:37.055Z] Aug 07, 2024 5:24:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:37.057Z] Aug 07, 2024 5:24:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:42.053Z] Aug 07, 2024 5:24:42 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2024-08-07T16:24:42.273Z] Aug 07, 2024 5:24:42 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2024-08-07T16:24:42.292Z] Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:42.307Z] Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:42.362Z] Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:42.387Z] Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:47.068Z] Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:47.201Z] Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:47.212Z] Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:48.820Z] Aug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:24:48.829Z] Aug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:24:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:00.655Z] File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/emerychikezie/Desktop/shortly/functions/index.js changed, reloading triggers"}}
+[debug] [2024-08-07T16:25:01.677Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-08-07T16:25:06.782Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-08-07T16:25:06.782Z] Building nodejs source
+[debug] [2024-08-07T16:25:06.783Z] Analyzing nodejs backend spec
+[debug] [2024-08-07T16:25:06.788Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-08-07T16:25:06.908Z] Aug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:25:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:07.678Z] Serving at port 9005
+
+[debug] [2024-08-07T16:25:07.766Z] Got response from /__/functions.yaml {"endpoints":{"linkCreated":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkCreated"},"linkDeleted":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.delete","eventFilters":{"resource":"projects/scissor-8c3bf/databases/(default)/documents/users/{userUid}/links/{linkID}"},"retry":false},"labels":{},"entryPoint":"linkDeleted"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-08-07T16:25:07.786Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: linkCreated, linkDeleted. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: linkCreated, linkDeleted."}}
+[debug] [2024-08-07T16:25:07.817Z] [worker-pool] Shutting down IDLE worker (us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:25:07.817Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: FINISHING"}}
+[debug] [2024-08-07T16:25:07.831Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: exited"}}
+[debug] [2024-08-07T16:25:07.832Z] [worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-a404d823-20d1-4c2b-bc2c-e25a6925015d]: FINISHED"}}
+[debug] [2024-08-07T16:25:13.371Z] Aug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:13.373Z] Aug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:23.402Z] Aug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:23.404Z] Aug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:24.716Z] Aug 07, 2024 5:25:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:24.738Z] Aug 07, 2024 5:25:24 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:24 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-08-07T16:25:33.741Z] Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:33.811Z] Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:33.849Z] Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:33.850Z] Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:43.574Z] Aug 07, 2024 5:25:43 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:43 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:47.240Z] Aug 07, 2024 5:25:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:47.365Z] Aug 07, 2024 5:25:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:47.369Z] Aug 07, 2024 5:25:47 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:47 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-08-07T16:25:53.600Z] Aug 07, 2024 5:25:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:56.509Z] Aug 07, 2024 5:25:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:25:56.629Z] Aug 07, 2024 5:25:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:25:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:06.589Z] Aug 07, 2024 5:26:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:06 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:18.748Z] Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:18.765Z] Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:18.770Z] Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:18.839Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2024-08-07T16:26:18.840Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2024-08-07T16:26:18.840Z] Accepted request POST /functions/projects/scissor-8c3bf/triggers/us-central1-linkCreated-0 --> us-central1-linkCreated-0
+[debug] [2024-08-07T16:26:18.868Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-08-07T16:26:18.871Z] [functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkCreated-0, mapping to path=/functions/projects/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkCreated-0, mapping to path=/functions/projects/"}}
+[debug] [2024-08-07T16:26:18.872Z] [worker-pool] Cleaned up workers for us-central1-linkDeleted: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-linkDeleted: 1 --> 0"}}
+[debug] [2024-08-07T16:26:19.117Z] [worker-pool] addWorker(us-central1-linkCreated) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-linkCreated)"}}
+[debug] [2024-08-07T16:26:19.119Z] [worker-pool] Adding worker with key us-central1-linkCreated, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-linkCreated, total=1"}}
+[debug] [2024-08-07T16:26:19.135Z] Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:26:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:20.987Z] [runtime-status] [99972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:20.989Z] [runtime-status] [99972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:20.990Z] [runtime-status] [99972] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-08-07T16:26:20.991Z] [runtime-status] [99972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:21.037Z] [runtime-status] [99972] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-08-07T16:26:21.038Z] [runtime-status] [99972] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:26:21.040Z] [runtime-status] [99972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:21.040Z] [runtime-status] [99972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:21.040Z] [runtime-status] [99972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:21.041Z] [runtime-status] [99972] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:26:21.044Z] [runtime-status] [99972] initializeApp(DEFAULT) {"storageBucket":"scissor-8c3bf.appspot.com","projectId":"scissor-8c3bf"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] initializeApp(DEFAULT) {\"storageBucket\":\"scissor-8c3bf.appspot.com\",\"projectId\":\"scissor-8c3bf\"}"}}
+[debug] [2024-08-07T16:26:21.056Z] [runtime-status] [99972] Functions runtime initialized. {"cwd":"/Users/emerychikezie/Desktop/shortly/functions","node_version":"16.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Functions runtime initialized. {\"cwd\":\"/Users/emerychikezie/Desktop/shortly/functions\",\"node_version\":\"16.16.0\"}"}}
+[debug] [2024-08-07T16:26:21.057Z] [runtime-status] [99972] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_95e78a388a0438cf.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_95e78a388a0438cf.sock"}}
+[debug] [2024-08-07T16:26:21.150Z] [worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: IDLE"}}
+[debug] [2024-08-07T16:26:21.151Z] [worker-pool] submitRequest(triggerId=us-central1-linkCreated) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-linkCreated)"}}
+[debug] [2024-08-07T16:26:21.151Z] [worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: BUSY"}}
+[info] i  functions: Beginning execution of "linkCreated" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"Beginning execution of \"linkCreated\""}}
+[debug] [2024-08-07T16:26:21.179Z] [runtime-status] [99972] ProcessBackground: lifting resource.name from resource {"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m","service":"firestore.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\",\"service\":\"firestore.googleapis.com\"}"}}
+[debug] [2024-08-07T16:26:21.179Z] [runtime-status] [99972] RunBackground {"data":{"value":{"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m","fields":{"name":{"stringValue":"test"},"totalClicks":{"integerValue":"0"},"longURL":{"stringValue":"test.com"},"shortCode":{"stringValue":"J1p_83"},"createdAt":{"timestampValue":"2024-08-07T16:26:18.775Z"}},"createTime":"2024-08-07T16:26:18.815546Z","updateTime":"2024-08-07T16:26:18.815546Z"},"updateMask":{}},"context":{"eventId":"8a31a5ca-dcfe-44a0-9db7-ba69f1d72d22","timestamp":"2024-08-07T16:26:18.815Z","eventType":"providers/cloud.firestore/eventTypes/document.create","resource":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"[runtime-status] [99972] RunBackground {\"data\":{\"value\":{\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\",\"fields\":{\"name\":{\"stringValue\":\"test\"},\"totalClicks\":{\"integerValue\":\"0\"},\"longURL\":{\"stringValue\":\"test.com\"},\"shortCode\":{\"stringValue\":\"J1p_83\"},\"createdAt\":{\"timestampValue\":\"2024-08-07T16:26:18.775Z\"}},\"createTime\":\"2024-08-07T16:26:18.815546Z\",\"updateTime\":\"2024-08-07T16:26:18.815546Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"8a31a5ca-dcfe-44a0-9db7-ba69f1d72d22\",\"timestamp\":\"2024-08-07T16:26:18.815Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\"}}"}}
+[debug] [2024-08-07T16:26:21.698Z] Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:21.739Z] Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:21.769Z] [worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkCreated-1d317c74-af15-453c-a532-853781227dbc]: IDLE"}}
+[debug] [2024-08-07T16:26:21.779Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "linkCreated" in 570.2415ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkCreated"},"extension":{},"message":"Finished \"linkCreated\" in 570.2415ms"}}
+[debug] [2024-08-07T16:26:21.786Z] Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:21.787Z] Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:22.921Z] Aug 07, 2024 5:26:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:27.363Z] Aug 07, 2024 5:26:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:27.364Z] Aug 07, 2024 5:26:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:32.463Z] Aug 07, 2024 5:26:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:32.531Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2024-08-07T16:26:32.532Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2024-08-07T16:26:32.532Z] Accepted request POST /functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0 --> us-central1-linkDeleted-0
+[debug] [2024-08-07T16:26:32.542Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-08-07T16:26:32.543Z] [functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/functions/projects/scissor-8c3bf/triggers/us-central1-linkDeleted-0, mapping to path=/functions/projects/"}}
+[debug] [2024-08-07T16:26:32.636Z] [worker-pool] addWorker(us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:26:32.636Z] [worker-pool] Adding worker with key us-central1-linkDeleted, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-linkDeleted, total=1"}}
+[debug] [2024-08-07T16:26:34.032Z] [runtime-status] [99977] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.038Z] [runtime-status] [99977] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.038Z] [runtime-status] [99977] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-08-07T16:26:34.039Z] [runtime-status] [99977] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.078Z] [runtime-status] [99977] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-08-07T16:26:34.078Z] [runtime-status] [99977] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:26:34.079Z] [runtime-status] [99977] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.080Z] [runtime-status] [99977] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.081Z] [runtime-status] [99977] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2024-08-07T16:26:34.081Z] [runtime-status] [99977] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/emerychikezie/Desktop/shortly/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-08-07T16:26:34.083Z] [runtime-status] [99977] initializeApp(DEFAULT) {"storageBucket":"scissor-8c3bf.appspot.com","projectId":"scissor-8c3bf"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] initializeApp(DEFAULT) {\"storageBucket\":\"scissor-8c3bf.appspot.com\",\"projectId\":\"scissor-8c3bf\"}"}}
+[debug] [2024-08-07T16:26:34.094Z] [runtime-status] [99977] Functions runtime initialized. {"cwd":"/Users/emerychikezie/Desktop/shortly/functions","node_version":"16.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Functions runtime initialized. {\"cwd\":\"/Users/emerychikezie/Desktop/shortly/functions\",\"node_version\":\"16.16.0\"}"}}
+[debug] [2024-08-07T16:26:34.096Z] [runtime-status] [99977] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_8d11829a59a2fe33.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] Listening to port: /var/folders/7j/99n79tw138bcx_81hscjdbb00000gn/T/fire_emu_8d11829a59a2fe33.sock"}}
+[debug] [2024-08-07T16:26:34.162Z] [worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: IDLE"}}
+[debug] [2024-08-07T16:26:34.162Z] [worker-pool] submitRequest(triggerId=us-central1-linkDeleted) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-linkDeleted)"}}
+[debug] [2024-08-07T16:26:34.162Z] [worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: BUSY"}}
+[info] i  functions: Beginning execution of "linkDeleted" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Beginning execution of \"linkDeleted\""}}
+[debug] [2024-08-07T16:26:34.190Z] [runtime-status] [99977] ProcessBackground: lifting resource.name from resource {"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m","service":"firestore.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\",\"service\":\"firestore.googleapis.com\"}"}}
+[debug] [2024-08-07T16:26:34.190Z] [runtime-status] [99977] RunBackground {"data":{"oldValue":{"name":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m","fields":{"name":{"stringValue":"test"},"totalClicks":{"integerValue":"0"},"longURL":{"stringValue":"test.com"},"shortCode":{"stringValue":"J1p_83"},"createdAt":{"timestampValue":"2024-08-07T16:26:18.775Z"}},"createTime":"2024-08-07T16:26:18.815546Z","updateTime":"2024-08-07T16:26:18.815546Z"},"updateMask":{}},"context":{"eventId":"344f191f-c13b-43ca-a2df-1aa6a15ad027","timestamp":"2024-08-07T16:26:32.496Z","eventType":"providers/cloud.firestore/eventTypes/document.delete","resource":"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"[runtime-status] [99977] RunBackground {\"data\":{\"oldValue\":{\"name\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\",\"fields\":{\"name\":{\"stringValue\":\"test\"},\"totalClicks\":{\"integerValue\":\"0\"},\"longURL\":{\"stringValue\":\"test.com\"},\"shortCode\":{\"stringValue\":\"J1p_83\"},\"createdAt\":{\"timestampValue\":\"2024-08-07T16:26:18.775Z\"}},\"createTime\":\"2024-08-07T16:26:18.815546Z\",\"updateTime\":\"2024-08-07T16:26:18.815546Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"344f191f-c13b-43ca-a2df-1aa6a15ad027\",\"timestamp\":\"2024-08-07T16:26:32.496Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"resource\":\"projects/scissor-8c3bf/databases/(default)/documents/users/x8ynh6lb4Az58mtVBFYY58XJyqU2/links/r9FovGQsRcstcgnFYI9m\"}}"}}
+[debug] [2024-08-07T16:26:34.260Z] Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:34.261Z] Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:34.876Z] Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:34.917Z] [worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-linkDeleted-07190af6-20fd-45cd-a263-d28d6f8f12db]: IDLE"}}
+[debug] [2024-08-07T16:26:34.918Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "linkDeleted" in 727.4515ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-linkDeleted"},"extension":{},"message":"Finished \"linkDeleted\" in 727.4515ms"}}
+[debug] [2024-08-07T16:26:37.380Z] Aug 07, 2024 5:26:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:26:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:26:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:42.362Z] Aug 07, 2024 5:26:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:47.426Z] Aug 07, 2024 5:26:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:47.427Z] Aug 07, 2024 5:26:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:47 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:52.376Z] Aug 07, 2024 5:26:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:52 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:57.439Z] Aug 07, 2024 5:26:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:26:57.440Z] Aug 07, 2024 5:26:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:26:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:02.397Z] Aug 07, 2024 5:27:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:07.478Z] Aug 07, 2024 5:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:27:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:12.411Z] Aug 07, 2024 5:27:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:17.501Z] Aug 07, 2024 5:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:17.502Z] Aug 07, 2024 5:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:18.882Z] Aug 07, 2024 5:27:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:19.363Z] Aug 07, 2024 5:27:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:19.369Z] Aug 07, 2024 5:27:19 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:19 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-08-07T16:27:22.427Z] Aug 07, 2024 5:27:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:27.518Z] Aug 07, 2024 5:27:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Aug 07, 2024 5:27:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\nAug 07, 2024 5:27:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:32.667Z] Aug 07, 2024 5:27:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:32 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:27:32.692Z] Aug 07, 2024 5:27:32 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:32 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-08-07T16:27:34.932Z] Aug 07, 2024 5:27:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:27:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-08-07T16:28:35.050Z] Aug 07, 2024 5:28:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Aug 07, 2024 5:28:35 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
