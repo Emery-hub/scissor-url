@@ -1,10 +1,10 @@
 import React from "react";
-import { useState, Fragment, useEffect } from "react";
+import { useState, Fragment, useEffect, useCallback, useMemo } from "react";
 import Navbar from "./Navbar";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import LinkCard from "./Linkcard";
 import ShortenURLModal from "./ShortenURLModal";
-import { app, firestore, auth } from "../../firebase";
+import { auth } from "../../firebase";
 import {
   getFirestore,
   serverTimestamp,
@@ -13,7 +13,6 @@ import {
   doc,
   deleteDoc,
   getDocs,
-  DocumentData,
   Timestamp,
   getDoc,
 } from "firebase/firestore";
@@ -30,38 +29,42 @@ interface LinkCardProps {
   totalClicks: number;
 }
 
-const dummyData: LinkCardProps[] = [
-  {
-    id: "31r08ms0fam",
-    createdAt: Timestamp.fromDate(new Date()),
-    name: "Dummy name",
-    longURL: "http://www.google.com",
-    shortCode: "masdom",
-    totalClicks: 312,
-  },
-  {
-    id: "31r089987ms0fam",
-    createdAt: Timestamp.fromDate(new Date()),
-    name: "Dummy name 2",
-    longURL: "http://www.google.com",
-    shortCode: "masdom real",
-    totalClicks: 352,
-  },
-  {
-    id: "31r089435987ms0fam",
-    createdAt: Timestamp.fromDate(new Date()),
-    name: "Dummy name 3",
-    longURL: "http://www.google.com",
-    shortCode: "masdom-real",
-    totalClicks: 152,
-  },
-];
+// const dummyData: LinkCardProps[] = [
+//   {
+//     id: "31r08ms0fam",
+//     createdAt: Timestamp.fromDate(new Date()),
+//     name: "Dummy name",
+//     longURL: "http://www.google.com",
+//     shortCode: "masdom",
+//     totalClicks: 312,
+//   },
+//   {
+//     id: "31r089987ms0fam",
+//     createdAt: Timestamp.fromDate(new Date()),
+//     name: "Dummy name 2",
+//     longURL: "http://www.google.com",
+//     shortCode: "masdom real",
+//     totalClicks: 352,
+//   },
+//   {
+//     id: "31r089435987ms0fam",
+//     createdAt: Timestamp.fromDate(new Date()),
+//     name: "Dummy name 3",
+//     longURL: "http://www.google.com",
+//     shortCode: "masdom-real",
+//     totalClicks: 152,
+//   },
+// ];
 
 const Account = () => {
   const [openModal, setOpenModal] = useState(false);
   const [links, setLinks] = useState<LinkCardProps[]>([]);
   const userUid = auth.currentUser?.uid;
   const firestore = getFirestore();
+
+  const userCollection = useMemo(() => {
+    return collection(firestore, "users", userUid ?? "", "links");
+  }, [firestore, userUid]);
 
   const handleCreateShortenLink = async (name: string, longURL: string) => {
     const link = {
@@ -72,23 +75,18 @@ const Account = () => {
       totalClicks: 0,
     };
 
-    const userCollection = collection(
-      firestore,
-      "users",
-      userUid ?? "",
-      "links"
-    );
+    // const userCollection = collection(
+    //   firestore,
+    //   "users",
+    //   userUid ?? "",
+    //   "links"
+    // );
+
     const resp = await addDoc(userCollection, link);
 
     const docRef = doc(userCollection, resp.id);
     const docSnap = await getDoc(docRef);
     const createdAt = docSnap.data()?.createdAt;
-
-    // const resp = await firestore
-    //   .collection("users")
-    //   .doc(auth.currentUser?.uid)
-    //   .collection("links")
-    //   .add(link);
 
     setLinks((links) => [
       ...links,
@@ -124,19 +122,22 @@ const Account = () => {
     };
 
     fetchLinks();
-  }, []);
+  }, [firestore, userUid]);
 
-  const handleDeleteLink = async (linkDocID: string) => {
-    const linkDocRef = doc(
-      firestore,
-      "users",
-      userUid ?? "",
-      "links",
-      linkDocID
-    );
-    await deleteDoc(linkDocRef);
-    setLinks((oldLinks) => oldLinks.filter((link) => link.id !== linkDocID));
-  };
+  const handleDeleteLink = useCallback(
+    async (linkDocID: string) => {
+      const linkDocRef = doc(
+        firestore,
+        "users",
+        userUid ?? "",
+        "links",
+        linkDocID
+      );
+      await deleteDoc(linkDocRef);
+      setLinks((oldLinks) => oldLinks.filter((link) => link.id !== linkDocID));
+    },
+    [firestore, userUid]
+  );
 
   return (
     <>
@@ -173,7 +174,9 @@ const Account = () => {
                 <Fragment key={link.id}>
                   <LinkCard
                     {...link}
-                    deleteLink={() => handleDeleteLink(link.id.toString())}
+                    // deleteLink={() => handleDeleteLink(link.id.toString())}
+                    // deleteLink={() => handleDeleteLink(link.id.toString())}
+                    deleteLink={handleDeleteLink}
                   />
                   {idx !== links.length - 1 && (
                     <Box my={4}>

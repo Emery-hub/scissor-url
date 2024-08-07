@@ -1,8 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 import { Typography, Button, Box } from "@mui/material";
 import { BarChart as ChartIcon } from "@mui/icons-material";
-import format, { formatDate } from "date-fns/format";
-import { serverTimestamp, Timestamp } from "firebase/firestore";
+import { formatDate } from "date-fns/format";
+import { Timestamp } from "firebase/firestore";
 
 interface LinkCardProps {
   id: string | number;
@@ -11,7 +11,9 @@ interface LinkCardProps {
   longURL: string;
   shortCode: string;
   totalClicks: number;
-  deleteLink?: () => void;
+  // deleteLink: () => string;
+  // deleteLink: () => void;
+  deleteLink: (linkDocID: string) => void;
 }
 
 const LinkCard = ({
@@ -23,6 +25,7 @@ const LinkCard = ({
   totalClicks,
   deleteLink,
 }: LinkCardProps) => {
+  console.log("link card rendered");
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center">
       <Box>
@@ -47,7 +50,7 @@ const LinkCard = ({
             </Button>
           </Box>
           <Button
-          onClick={deleteLink}
+            onClick={() => deleteLink(id as string)}
             color="secondary"
             size="small"
             variant="contained"
@@ -71,4 +74,4 @@ const LinkCard = ({
   );
 };
 
-export default LinkCard;
+export default memo(LinkCard);
