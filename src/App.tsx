@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ThemeProvider, createTheme, CircularProgress, Box } from "@mui/material";
+import { ThemeProvider, CircularProgress, Box } from "@mui/material";
 import {
   BrowserRouter as Router,
   Route,
@@ -9,7 +9,7 @@ import {
 import Home from "./components/Home";
 import Account from "./components/Account";
 import theme from "./theme";
-import { auth } from "./firebase";
+// import { auth } from "./firebase";
 import { getAuth, onAuthStateChanged, User } from "firebase/auth";
 
 const App = () => {
@@ -27,12 +27,12 @@ const App = () => {
     return () => unsubscribe();
   }, []);
 
-  if (initialLoad) return (
-    <Box mt={5} display="flex" justifyContent="center">
-      <CircularProgress />
-      
-    </Box>
-  )
+  if (initialLoad)
+    return (
+      <Box mt={5} display="flex" justifyContent="center">
+        <CircularProgress />
+      </Box>
+    );
   return (
     <ThemeProvider theme={theme}>
       <Router>

@@ -1,7 +1,14 @@
 import React from "react";
 import { useState, Fragment, useEffect, useCallback, useMemo } from "react";
 import Navbar from "./Navbar";
-import { Box, Button, Grid, Typography, Divider } from "@mui/material";
+import {
+  Box,
+  Button,
+  Grid,
+  Typography,
+  Divider,
+  Snackbar,
+} from "@mui/material";
 import LinkCard from "./Linkcard";
 import ShortenURLModal from "./ShortenURLModal";
 import { auth } from "../../firebase";
@@ -17,6 +24,7 @@ import {
   getDoc,
 } from "firebase/firestore";
 import { nanoid } from "nanoid";
+import copy from "copy-to-clipboard";
 
 console.log(auth.currentUser?.uid);
 
@@ -57,6 +65,7 @@ interface LinkCardProps {
 // ];
 
 const Account = () => {
+  const [newLinkToastr, setNewLinkToastr] = useState(false);
   const [openModal, setOpenModal] = useState(false);
   const [links, setLinks] = useState<LinkCardProps[]>([]);
   const userUid = auth.currentUser?.uid;
@@ -139,8 +148,19 @@ const Account = () => {
     [firestore, userUid]
   );
 
+  const handleCopyLink = useCallback((shortURL: string) => {
+    copy(shortURL);
+    setNewLinkToastr(true);
+  }, []);
+
   return (
     <>
+      <Snackbar
+        open={newLinkToastr}
+        onClose={() => setNewLinkToastr(false)}
+        autoHideDuration={3000}
+        message="Link copied to the clipboard"
+      />
       {openModal && (
         <ShortenURLModal
           createShortenLink={handleCreateShortenLink}
@@ -177,6 +197,7 @@ const Account = () => {
                     // deleteLink={() => handleDeleteLink(link.id.toString())}
                     // deleteLink={() => handleDeleteLink(link.id.toString())}
                     deleteLink={handleDeleteLink}
+                    copyLink={handleCopyLink}
                   />
                   {idx !== links.length - 1 && (
                     <Box my={4}>
