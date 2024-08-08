@@ -39,7 +39,9 @@ const LinkCard = ({
             : "Invalid Date"}
         </Typography>
         <Box my={2}>
-          <Typography variant="h5">Name: {name}</Typography>
+          <Typography style={{ marginBottom: "5px" }} variant="h5">
+            Name: {name}
+          </Typography>
           <Typography>Long URL: {longURL}</Typography>
         </Box>
         <Box display="flex" alignItems="center">

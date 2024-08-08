@@ -78,7 +78,10 @@ const Account = () => {
   const handleCreateShortenLink = async (name: string, longURL: string) => {
     const link = {
       name,
-      longURL,
+      longURL:
+        longURL.includes("http://") || longURL.includes("https://")
+          ? longURL
+          : `http://${longURL}`,
       createdAt: serverTimestamp(),
       shortCode: nanoid(6),
       totalClicks: 0,
