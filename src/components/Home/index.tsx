@@ -7,39 +7,9 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { app } from "../../firebase";
+import AuthModal from "./AuthModal";
 
 const Home = () => {
-  const [form, setForm] = useState({
-    email: "",
-    password: "",
-  });
-
-  const handleChange = (event: { target: { name: any; value: any } }) =>
-    setForm((oldForm) => ({
-      ...oldForm,
-      [event.target.name]: event.target.value,
-    }));
-
-  const handleSignup = () => {
-    const auth = getAuth(app);
-    createUserWithEmailAndPassword(auth, form.email, form.password);
-  };
-
-  const handleSignin = () => {
-    const auth = getAuth(app);
-    signInWithEmailAndPassword(auth, form.email, form.password);
-  };
-  // .then((userCredential) => {
-  //   // Signed in
-  //   const user = userCredential.user;
-  //   console.log("User signed up:", user);
-  // })
-  // .catch((error) => {
-  //   const errorCode = error.code;
-  //   const errorMessage = error.message;
-  //   console.error("Error signing up:", errorCode, errorMessage);
-  // });
-
   return (
     <Box
       display="flex"
@@ -50,6 +20,8 @@ const Home = () => {
       bgcolor="#56B7BA"
       color="#fff"
     >
+      <AuthModal />
+
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <Typography variant="h4">Scissor</Typography>
         <Button color="inherit">Login/Signup</Button>
@@ -73,8 +45,12 @@ const Home = () => {
 
           <Grid item sm={6} sx={{ display: { xs: "none", sm: "block" } }}>
             <img
-              style={{ width: "100%", borderRadius: "10px" }}
-              src="/assets/image2.png"
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                boxShadow: "0px 10px 35px rgba(0,0,0,0.1)",
+              }}
+              src="/assets/mockup.png"
               alt="design mockup"
             />
           </Grid>
@@ -86,30 +62,7 @@ const Home = () => {
 
 export default Home;
 
-{
-  /* <Typography>Homepage</Typography>
-      <TextField
-        value={form.email}
-        name="email"
-        onChange={handleChange}
-        label="Email"
-        variant="filled"
-      />
-      <TextField
-        value={form.password}
-        name="password"
-        onChange={handleChange}
-        label="Password"
-        type="password"
-        variant="filled"
-      />
-      <Button onClick={handleSignup} variant="contained" color="primary">
-        Sign Up
-      </Button>
-      <Button onClick={handleSignin} variant="contained" color="primary">
-        Sign In
-      </Button> */
-}
+<Typography>Homepage</Typography>;
 
 {
   /* <Button onClick={() => console.log(form)} variant="contained" color="primary">
