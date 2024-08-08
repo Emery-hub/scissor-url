@@ -44,7 +44,7 @@ const Home = () => {
     <Box
       display="flex"
       flexDirection="column"
-      p={2}
+      p={3}
       boxSizing="border-box"
       height="100vh"
       bgcolor="#56B7BA"
@@ -56,7 +56,7 @@ const Home = () => {
       </Box>
 
       <Box display="flex" flexGrow={1} alignItems="center">
-        <Grid container>
+        <Grid container alignItems="center">
           <Grid item sm={6}>
             <Box>
               <Typography variant="h3">Short links, Great results</Typography>
@@ -65,10 +65,19 @@ const Home = () => {
                   Powerful link shortener to help your brand grow
                 </Typography>
               </Box>
-              <Button color="secondary" variant="contained" size="large">Get Started</Button>
+              <Button color="secondary" variant="contained" size="large">
+                Get Started
+              </Button>
             </Box>
           </Grid>
-          <Grid item sm={6}></Grid>
+
+          <Grid item sm={6} sx={{ display: { xs: "none", sm: "block" } }}>
+            <img
+              style={{ width: "100%", borderRadius: "10px" }}
+              src="/assets/image2.png"
+              alt="design mockup"
+            />
+          </Grid>
         </Grid>
       </Box>
     </Box>
