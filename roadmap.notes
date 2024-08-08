@@ -1,0 +1,11 @@
+Checklist for functions implemented on this application:
+
+Core functions includes:
+
+[] Authentication
+[] Creating of short links
+[] Added cloud functions
+[] Redirect paths
+[] Incrementing the total clicks
+
+UI functions includes:

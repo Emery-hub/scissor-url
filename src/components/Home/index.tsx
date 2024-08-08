@@ -1,7 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { Typography, TextField, Button } from "@mui/material";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { Typography, TextField, Button, Box, Grid } from "@mui/material";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import { app } from "../../firebase";
 
 const Home = () => {
@@ -25,22 +29,56 @@ const Home = () => {
     const auth = getAuth(app);
     signInWithEmailAndPassword(auth, form.email, form.password);
   };
-    // .then((userCredential) => {
-    //   // Signed in
-    //   const user = userCredential.user;
-    //   console.log("User signed up:", user);
-    // })
-    // .catch((error) => {
-    //   const errorCode = error.code;
-    //   const errorMessage = error.message;
-    //   console.error("Error signing up:", errorCode, errorMessage);
-    // });
-  
-
+  // .then((userCredential) => {
+  //   // Signed in
+  //   const user = userCredential.user;
+  //   console.log("User signed up:", user);
+  // })
+  // .catch((error) => {
+  //   const errorCode = error.code;
+  //   const errorMessage = error.message;
+  //   console.error("Error signing up:", errorCode, errorMessage);
+  // });
 
   return (
-    <>
-      <Typography>Homepage</Typography>
+    <Box
+      display="flex"
+      flexDirection="column"
+      p={2}
+      boxSizing="border-box"
+      height="100vh"
+      bgcolor="#56B7BA"
+      color="#fff"
+    >
+      <Box display="flex" alignItems="center" justifyContent="space-between">
+        <Typography variant="h4">Scissor</Typography>
+        <Button color="inherit">Login/Signup</Button>
+      </Box>
+
+      <Box display="flex" flexGrow={1} alignItems="center">
+        <Grid container>
+          <Grid item sm={6}>
+            <Box>
+              <Typography variant="h3">Short links, Great results</Typography>
+              <Box my={2}>
+                <Typography>
+                  Powerful link shortener to help your brand grow
+                </Typography>
+              </Box>
+              <Button color="secondary" variant="contained" size="large">Get Started</Button>
+            </Box>
+          </Grid>
+          <Grid item sm={6}></Grid>
+        </Grid>
+      </Box>
+    </Box>
+  );
+};
+
+export default Home;
+
+{
+  /* <Typography>Homepage</Typography>
       <TextField
         value={form.email}
         name="email"
@@ -61,13 +99,11 @@ const Home = () => {
       </Button>
       <Button onClick={handleSignin} variant="contained" color="primary">
         Sign In
-      </Button>
+      </Button> */
+}
 
-      {/* <Button onClick={() => console.log(form)} variant="contained" color="primary">
+{
+  /* <Button onClick={() => console.log(form)} variant="contained" color="primary">
         Sign Up
-      </Button> */}
-    </>
-  );
-};
-
-export default Home;
+      </Button> */
+}
