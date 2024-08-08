@@ -5,6 +5,7 @@ import {
   Route,
   Routes,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import Home from "./components/Home";
 import Account from "./components/Account";
@@ -15,7 +16,10 @@ import LinkRedirect from "./components/LinkRedirect";
 
 const App = () => {
   const [user, setUser] = useState<User | null>(null);
-  const [initialLoad, setInitialLoad] = useState(true);
+  const { pathname } = useLocation();
+  const [initialLoad, setInitialLoad] = useState(
+    pathname === "/" || pathname === "/account" ? true : false
+  );
 
   useEffect(() => {
     const auth = getAuth();
@@ -36,21 +40,21 @@ const App = () => {
     );
   return (
     <ThemeProvider theme={theme}>
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={user ? <Navigate to="/account" /> : <Home />}
-          />
-          <Route
-            path="/account"
-            element={user ? <Account /> : <Navigate to="/" />}
-          />
-          <Route path="/:shortCode" element={<LinkRedirect />} />
+      {/* <Router> */}
+      <Routes>
+        <Route
+          path="/"
+          element={user ? <Navigate to="/account" /> : <Home />}
+        />
+        <Route
+          path="/account"
+          element={user ? <Account /> : <Navigate to="/" />}
+        />
+        <Route path="/:shortCode" element={<LinkRedirect />} />
 
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
-        </Routes>
-      </Router>
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
+      </Routes>
+      {/* </Router> */}
     </ThemeProvider>
   );
   // Remove the extra closing curly brace
