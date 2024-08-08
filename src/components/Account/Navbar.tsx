@@ -1,5 +1,6 @@
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 import React from "react";
+import { auth } from "../../firebase";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,9 @@ const Navbar = () => {
         <Typography variant="h6">Scissor</Typography>
         <Box marginLeft="auto">
           <Button color="inherit">Links</Button>
-          <Button color="inherit">Logout</Button>
+          <Button onClick={() => auth.signOut()} color="inherit">
+            Logout
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
