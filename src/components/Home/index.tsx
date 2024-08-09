@@ -10,6 +10,7 @@ import { app } from "../../firebase";
 import AuthModal from "./AuthModal";
 
 const Home = () => {
+  const [openAuthModal, setOpenAuthModal] = useState(false);
   return (
     <Box
       display="flex"
@@ -20,11 +21,13 @@ const Home = () => {
       bgcolor="#56B7BA"
       color="#fff"
     >
-      <AuthModal />
+      {openAuthModal && <AuthModal onClose={() => setOpenAuthModal(false)} />}
 
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <Typography variant="h4">Scissor</Typography>
-        <Button color="inherit">Login/Signup</Button>
+        <Button onClick={() => setOpenAuthModal(true)} color="inherit">
+          Login/Signup
+        </Button>
       </Box>
 
       <Box display="flex" flexGrow={1} alignItems="center">

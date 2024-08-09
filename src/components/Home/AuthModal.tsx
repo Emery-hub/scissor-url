@@ -5,6 +5,7 @@ import {
   DialogContent,
   DialogTitle,
   Typography,
+  IconButton,
   TextField,
   Box,
 } from "@mui/material";
@@ -15,8 +16,10 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
+import { Close as CloseIcon } from "@mui/icons-material";
 
-const AuthModal = () => {
+const AuthModal = ({ onClose }: { onClose: any }) => {
+  const [error, setError] = useState("");
   const [isSignIn, setIsSignIn] = useState(true);
 
   const [form, setForm] = useState({
@@ -41,18 +44,30 @@ const AuthModal = () => {
   //   };
 
   const handleAuth = async () => {
-    if (isSignIn) {
-      const auth = getAuth(app);
-      await signInWithEmailAndPassword(auth, form.email, form.password);
-    } else {
-      const auth = getAuth(app);
-      createUserWithEmailAndPassword(auth, form.email, form.password);
+    try {
+      if (isSignIn) {
+        const auth = getAuth(app);
+        await signInWithEmailAndPassword(auth, form.email, form.password);
+      } else {
+        const auth = getAuth(app);
+        createUserWithEmailAndPassword(auth, form.email, form.password);
+      }
+    } catch (err: any) {
+      console.log(err);
+      setError((err as Error).message);
     }
   };
 
   return (
-    <Dialog open fullWidth>
-      <DialogTitle>{isSignIn ? "Sign In" : "Sign Up"}</DialogTitle>
+    <Dialog open fullWidth onClose={onClose}>
+      <DialogTitle>
+        <Box display="flex" alignItems="center" justifyContent="space-between">
+          {isSignIn ? "Sign In" : "Sign Up"}
+          <IconButton size="small" onClick={onClose}>
+            <CloseIcon />
+          </IconButton>
+        </Box>
+      </DialogTitle>
       <DialogContent>
         <TextField
           style={{ marginBottom: "24px" }}
@@ -72,6 +87,10 @@ const AuthModal = () => {
           type="password"
           variant="filled"
         />
+
+        <Box mt={2} color="red">
+          <Typography>{error}</Typography>
+        </Box>
         {/* <Button onClick={handleSignup} variant="contained" color="secondary">
           Sign Up
         </Button> */}
