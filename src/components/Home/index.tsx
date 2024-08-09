@@ -40,7 +40,12 @@ const Home = () => {
                   Powerful link shortener to help your brand grow
                 </Typography>
               </Box>
-              <Button color="secondary" variant="contained" size="large">
+              <Button
+                onClick={() => setOpenAuthModal(true)}
+                color="secondary"
+                variant="contained"
+                size="large"
+              >
                 Get Started
               </Button>
             </Box>

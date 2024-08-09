@@ -9,3 +9,17 @@ Core functions includes:
 [] Incrementing the total clicks
 
 UI functions includes:
+
+Home Component
+[] Get started btn -> Modal
+[] Auth loading
+
+Account Component
+[] Fetchinh Links loading
+[] No links message
+[] Delete Confirm box
+[] Create short url loading
+[] CRL Modal - Validation - Name and url
+
+[] Responsiveness
+
