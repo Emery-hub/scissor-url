@@ -8,6 +8,7 @@ import {
   Typography,
   Divider,
   Snackbar,
+  CircularProgress,
 } from "@mui/material";
 import LinkCard from "./Linkcard";
 import ShortenURLModal from "./ShortenURLModal";
@@ -65,6 +66,7 @@ interface LinkCardProps {
 // ];
 
 const Account = () => {
+  const [fetchingLinks, setFetchingLinks] = useState(true);
   const [newLinkToastr, setNewLinkToastr] = useState(false);
   const [openModal, setOpenModal] = useState(false);
   const [links, setLinks] = useState<LinkCardProps[]>([]);
@@ -131,6 +133,7 @@ const Account = () => {
       });
 
       setLinks(tempLinks);
+      setTimeout(() => setFetchingLinks(false), 1000);
     };
 
     fetchLinks();
@@ -138,15 +141,19 @@ const Account = () => {
 
   const handleDeleteLink = useCallback(
     async (linkDocID: string) => {
-      const linkDocRef = doc(
-        firestore,
-        "users",
-        userUid ?? "",
-        "links",
-        linkDocID
-      );
-      await deleteDoc(linkDocRef);
-      setLinks((oldLinks) => oldLinks.filter((link) => link.id !== linkDocID));
+      if (window.confirm("Are you sure you want to delete this link?")) {
+        const linkDocRef = doc(
+          firestore,
+          "users",
+          userUid ?? "",
+          "links",
+          linkDocID
+        );
+        await deleteDoc(linkDocRef);
+        setLinks((oldLinks) =>
+          oldLinks.filter((link) => link.id !== linkDocID)
+        );
+      }
     },
     [firestore, userUid]
   );
@@ -188,27 +195,47 @@ const Account = () => {
               </Button>
             </Box>
 
-            {links
-              .sort(
-                (prevLink, nextLink) =>
-                  nextLink.createdAt.toMillis() - prevLink.createdAt.toMillis()
-              )
-              .map((link, idx) => (
-                <Fragment key={link.id}>
-                  <LinkCard
-                    {...link}
-                    // deleteLink={() => handleDeleteLink(link.id.toString())}
-                    // deleteLink={() => handleDeleteLink(link.id.toString())}
-                    deleteLink={handleDeleteLink}
-                    copyLink={handleCopyLink}
-                  />
-                  {idx !== links.length - 1 && (
-                    <Box my={4}>
-                      <Divider />
-                    </Box>
-                  )}
-                </Fragment>
-              ))}
+            {fetchingLinks ? (
+              <Box textAlign="center">
+                <CircularProgress />
+              </Box>
+            ) : !links.length ? (
+              <Box textAlign="center">
+                <img
+                  style={{
+                    width: "225px",
+                    height: "auto",
+                    marginBottom: "24px",
+                  }}
+                  src="/assets/nodata.svg"
+                  alt="no links"
+                />
+                <Typography>You have no links created yet</Typography>
+              </Box>
+            ) : (
+              links
+                .sort(
+                  (prevLink, nextLink) =>
+                    nextLink.createdAt.toMillis() -
+                    prevLink.createdAt.toMillis()
+                )
+                .map((link, idx) => (
+                  <Fragment key={link.id}>
+                    <LinkCard
+                      {...link}
+                      // deleteLink={() => handleDeleteLink(link.id.toString())}
+                      // deleteLink={() => handleDeleteLink(link.id.toString())}
+                      deleteLink={handleDeleteLink}
+                      copyLink={handleCopyLink}
+                    />
+                    {idx !== links.length - 1 && (
+                      <Box my={4}>
+                        <Divider />
+                      </Box>
+                    )}
+                  </Fragment>
+                ))
+            )}
           </Grid>
         </Grid>
       </Box>
