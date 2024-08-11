@@ -46,11 +46,11 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
   //     longURL: "",
   //   });
 
-//   const handleChange = (event: { target: { name: any; value: any } }) =>
-//     setForm((oldForm) => ({
-//       ...oldForm,
-//       [event.target.name]: event.target.value,
-//     }));
+  //   const handleChange = (event: { target: { name: any; value: any } }) =>
+  //     setForm((oldForm) => ({
+  //       ...oldForm,
+  //       [event.target.name]: event.target.value,
+  //     }));
 
   return (
     <Dialog fullWidth open={true} onClose={handleClose}>
@@ -87,12 +87,8 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
 
       <DialogActions>
         <Box mr={2} my={1}>
-          <Button
-            onClick={handleSubmit}
-            variant="contained"
-            color="primary"
-          >
-            Shorten URL
+          <Button onClick={handleSubmit} variant="contained" color="primary">
+            Create a Short URL
           </Button>
         </Box>
       </DialogActions>

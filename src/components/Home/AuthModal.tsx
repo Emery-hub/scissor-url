@@ -6,6 +6,7 @@ import {
   DialogTitle,
   Typography,
   IconButton,
+  CircularProgress,
   TextField,
   Box,
 } from "@mui/material";
@@ -19,6 +20,7 @@ import {
 import { Close as CloseIcon } from "@mui/icons-material";
 
 const AuthModal = ({ onClose }: { onClose: any }) => {
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [isSignIn, setIsSignIn] = useState(true);
 
@@ -44,6 +46,7 @@ const AuthModal = ({ onClose }: { onClose: any }) => {
   //   };
 
   const handleAuth = async () => {
+    setLoading(true);
     try {
       if (isSignIn) {
         const auth = getAuth(app);
@@ -53,8 +56,8 @@ const AuthModal = ({ onClose }: { onClose: any }) => {
         createUserWithEmailAndPassword(auth, form.email, form.password);
       }
     } catch (err: any) {
-      console.log(err);
       setError((err as Error).message);
+      setLoading(false);
     }
   };
 
@@ -114,8 +117,15 @@ const AuthModal = ({ onClose }: { onClose: any }) => {
             onClick={handleAuth}
             variant="contained"
             color="primary"
+            disabled={loading}
           >
-            {isSignIn ? "Sign In" : "Sign Up"}
+            {loading ? (
+              <CircularProgress color="secondary" size={22} />
+            ) : isSignIn ? (
+              "Sign In"
+            ) : (
+              "Sign Up"
+            )}
           </Button>
         </Box>
       </DialogActions>
