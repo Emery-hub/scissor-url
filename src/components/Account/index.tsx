@@ -178,9 +178,10 @@ const Account = () => {
         />
       )}
       <Navbar />
-      <Box mt={5}>
+
+      <Box mt={{ xs:3, sm: 5 }} p={{ xs: 2, sm: 0 }} >
         <Grid container justifyContent="center">
-          <Grid item xs={8}>
+          <Grid item xs={12} sm={8} >
             <Box mb={5} display="flex">
               <Box mr={3}>
                 <Typography variant="h4">Links</Typography>
