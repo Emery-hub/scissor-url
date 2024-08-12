@@ -31,7 +31,7 @@ const LinkCard = ({
   const shortURL = `${window.location.host}/${shortCode}`;
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center">
-      <Box>
+      <Box width="50%">
         <Typography color="textSecondary" variant="overline">
           Created at=={" "}
           {createdAt instanceof Timestamp
@@ -42,7 +42,9 @@ const LinkCard = ({
           <Typography style={{ marginBottom: "5px" }} variant="h5">
             Name: {name}
           </Typography>
-          <Typography>Long URL: {longURL}</Typography>
+          <Typography style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+            Long URL: {longURL}
+          </Typography>
         </Box>
         <Box display="flex" alignItems="center">
           <Typography color="primary">{shortURL}</Typography>
@@ -69,13 +71,16 @@ const LinkCard = ({
       </Box>
 
       <Box>
-        <Box>
-          <Box display="flex" justifyContent="center">
-            <Typography>{totalClicks}</Typography>
-            <ChartIcon />
-          </Box>
-          <Typography variant="overline">Total Clicks</Typography>
+        <Box display="flex" justifyContent="center">
+          <Typography>{totalClicks}</Typography>
+          <ChartIcon />
         </Box>
+        <Typography
+          variant="overline"
+          sx={{ display: { xs: "none", sm: "block" } }}
+        >
+          Total Clicks
+        </Typography>
       </Box>
     </Box>
   );

@@ -8,6 +8,7 @@ import {
   Button,
   TextField,
   IconButton,
+  CircularProgress,
 } from "@mui/material";
 import { Close as CloseIcon } from "@mui/icons-material";
 
@@ -19,19 +20,12 @@ interface ShortenURLModalProps {
   handleClose: () => void;
   createShortenLink: (name: string, longURL: string) => void;
 }
-// interface ErrorState {
-//   name: string;
-//   longURL: string;
-// }
 
 const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
   handleClose,
   createShortenLink,
 }) => {
-  //   const [errors, setErrors] = useState({
-  //     name: "",
-  //     longURL: "",
-  //   });
+  const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({
     name: "",
     longURL: "",
@@ -47,7 +41,7 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
       [event.target.name]: event.target.value,
     }));
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const errors = {
       name: "",
       longURL: "",
@@ -88,8 +82,13 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
 
     // if (!!Object.keys(errors).length) return setErrors(errors);
 
-    createShortenLink(form.name, form.longURL);
-    handleClose();
+    setLoading(true);
+    try {
+      setTimeout(() => createShortenLink(tName, tLongURL), 2000);
+    } catch (err) {
+      setLoading(false);
+      handleClose();
+    }
   };
 
   // const ShortenURLModal = ({ handleClose, createShortenLink }: ShortenURLModalProps) => {
@@ -143,8 +142,18 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
 
       <DialogActions>
         <Box mr={2} my={1}>
-          <Button onClick={handleSubmit} variant="contained" color="primary">
-            Create a Short URL
+          <Button
+            onClick={handleSubmit}
+            variant="contained"
+            color="primary"
+            disableElevation
+            disabled={loading}
+          >
+            {loading ? (
+              <CircularProgress color="secondary" size={22} />
+            ) : (
+              "Create a Short URL"
+            )}
           </Button>
         </Box>
       </DialogActions>
