@@ -19,11 +19,23 @@ interface ShortenURLModalProps {
   handleClose: () => void;
   createShortenLink: (name: string, longURL: string) => void;
 }
+// interface ErrorState {
+//   name: string;
+//   longURL: string;
+// }
 
 const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
   handleClose,
   createShortenLink,
 }) => {
+  //   const [errors, setErrors] = useState({
+  //     name: "",
+  //     longURL: "",
+  //   });
+  const [errors, setErrors] = useState({
+    name: "",
+    longURL: "",
+  });
   const [form, setForm] = useState({
     name: "",
     longURL: "",
@@ -36,6 +48,46 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
     }));
 
   const handleSubmit = () => {
+    const errors = {
+      name: "",
+      longURL: "",
+    };
+    const tName = form.name.trim();
+    const tLongURL = form.longURL.trim();
+
+    // Name validation
+    if (tName.length < 3 || tName.length > 15) {
+      errors.name = "The Name should be min of 3 and max of 15 characters";
+    }
+
+    // URL validation (basic pattern)
+    const urlPattern = new RegExp(
+      /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/gi
+    );
+
+    if (!urlPattern.test(tLongURL)) {
+      errors.longURL = "The URL should be a valid URL";
+    }
+
+    // If there are errors, set the error state and prevent submission
+    if (errors.name || errors.longURL) {
+      setErrors(errors);
+      return;
+    }
+
+    // const expression =
+    //   /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/gi;
+    // const regex = new RegExp(expression);
+
+    // if (tName.length < 3 || tName.length > 15) {
+    //   errors.name = "The Name should be min of 3 and max of 15 characters";
+    // }
+    // if (!regex.test(tLongURL)) {
+    //   errors.longURL = "The URL should be a valid URL";
+    // }
+
+    // if (!!Object.keys(errors).length) return setErrors(errors);
+
     createShortenLink(form.name, form.longURL);
     handleClose();
   };
@@ -66,6 +118,8 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
       <DialogContent>
         <Box mb={3}>
           <TextField
+            error={!!errors.name}
+            helperText={errors.name}
             value={form.name}
             name="name"
             onChange={handleChange}
@@ -76,6 +130,8 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
         </Box>
 
         <TextField
+          error={!!errors.longURL}
+          helperText={errors.longURL}
           value={form.longURL}
           name="longURL"
           onChange={handleChange}
