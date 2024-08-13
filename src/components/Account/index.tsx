@@ -38,32 +38,7 @@ interface LinkCardProps {
   totalClicks: number;
 }
 
-// const dummyData: LinkCardProps[] = [
-//   {
-//     id: "31r08ms0fam",
-//     createdAt: Timestamp.fromDate(new Date()),
-//     name: "Dummy name",
-//     longURL: "http://www.google.com",
-//     shortCode: "masdom",
-//     totalClicks: 312,
-//   },
-//   {
-//     id: "31r089987ms0fam",
-//     createdAt: Timestamp.fromDate(new Date()),
-//     name: "Dummy name 2",
-//     longURL: "http://www.google.com",
-//     shortCode: "masdom real",
-//     totalClicks: 352,
-//   },
-//   {
-//     id: "31r089435987ms0fam",
-//     createdAt: Timestamp.fromDate(new Date()),
-//     name: "Dummy name 3",
-//     longURL: "http://www.google.com",
-//     shortCode: "masdom-real",
-//     totalClicks: 152,
-//   },
-// ];
+
 
 const Account = () => {
   const [fetchingLinks, setFetchingLinks] = useState(true);
