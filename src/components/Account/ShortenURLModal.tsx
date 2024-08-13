@@ -69,19 +69,6 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
       return;
     }
 
-    // const expression =
-    //   /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/gi;
-    // const regex = new RegExp(expression);
-
-    // if (tName.length < 3 || tName.length > 15) {
-    //   errors.name = "The Name should be min of 3 and max of 15 characters";
-    // }
-    // if (!regex.test(tLongURL)) {
-    //   errors.longURL = "The URL should be a valid URL";
-    // }
-
-    // if (!!Object.keys(errors).length) return setErrors(errors);
-
     setLoading(true);
     try {
       setTimeout(() => createShortenLink(tName, tLongURL), 2000);
@@ -90,18 +77,6 @@ const ShortenURLModal: React.FC<ShortenURLModalProps> = ({
       handleClose();
     }
   };
-
-  // const ShortenURLModal = ({ handleClose, createShortenLink }: ShortenURLModalProps) => {
-  //   const [form, setForm] = useState({
-  //     name: "",
-  //     longURL: "",
-  //   });
-
-  //   const handleChange = (event: { target: { name: any; value: any } }) =>
-  //     setForm((oldForm) => ({
-  //       ...oldForm,
-  //       [event.target.name]: event.target.value,
-  //     }));
 
   return (
     <Dialog fullWidth open={true} onClose={handleClose}>

@@ -1,12 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Typography, TextField, Button, Box, Grid } from "@mui/material";
-import {
-  getAuth,
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-} from "firebase/auth";
-import { app } from "../../firebase";
+import { Typography, Button, Box, Grid } from "@mui/material";
 import AuthModal from "./AuthModal";
 
 const Home = () => {
@@ -71,9 +65,3 @@ const Home = () => {
 export default Home;
 
 <Typography>Homepage</Typography>;
-
-{
-  /* <Button onClick={() => console.log(form)} variant="contained" color="primary">
-        Sign Up
-      </Button> */
-}
