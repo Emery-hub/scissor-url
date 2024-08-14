@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "scissor-8c3bf"
-  }
+    "default": "scissor-url-47c6d",
+    "second": "scissor-url-47c6d"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
