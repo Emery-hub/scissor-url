@@ -27,7 +27,7 @@ const LinkCard = ({
   deleteLink,
   copyLink,
 }: LinkCardProps) => {
-  console.log("link card rendered");
+  // console.log("link card rendered");
   const shortURL = `${window.location.host}/${shortCode}`;
   return (
     <Box display="flex" justifyContent="space-between" alignItems="center">

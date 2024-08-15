@@ -27,7 +27,7 @@ import {
 import { nanoid } from "nanoid";
 import copy from "copy-to-clipboard";
 
-console.log(auth.currentUser?.uid);
+// console.log(auth.currentUser?.uid);
 
 interface LinkCardProps {
   id: string | number;
@@ -37,8 +37,6 @@ interface LinkCardProps {
   shortCode: string;
   totalClicks: number;
 }
-
-
 
 const Account = () => {
   const [fetchingLinks, setFetchingLinks] = useState(true);
@@ -154,9 +152,9 @@ const Account = () => {
       )}
       <Navbar />
 
-      <Box mt={{ xs:3, sm: 5 }} p={{ xs: 2, sm: 0 }} >
+      <Box mt={{ xs: 3, sm: 5 }} p={{ xs: 2, sm: 0 }}>
         <Grid container justifyContent="center">
-          <Grid item xs={12} sm={8} >
+          <Grid item xs={12} sm={8}>
             <Box mb={5} display="flex">
               <Box mr={3}>
                 <Typography variant="h4">Links</Typography>
@@ -199,8 +197,6 @@ const Account = () => {
                   <Fragment key={link.id}>
                     <LinkCard
                       {...link}
-                      // deleteLink={() => handleDeleteLink(link.id.toString())}
-                      // deleteLink={() => handleDeleteLink(link.id.toString())}
                       deleteLink={handleDeleteLink}
                       copyLink={handleCopyLink}
                     />
